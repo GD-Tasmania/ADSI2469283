@@ -1,0 +1,90 @@
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import javax.swing.JFormattedTextField;
+
+public class Notas extends JFrame{
+	JPanel miPanel;
+	JLabel minota1;
+	JLabel minota2;
+	JLabel minota3;
+	
+	JTextField nota1;
+	private JFormattedTextField nota1_1;
+	JTextField nota2;
+	JTextField nota3;
+	private JFormattedTextField textField;
+	private JFormattedTextField textField_1;
+
+	public Notas() {
+		iniciarComponentes();
+		setTitle("Calculadora de Notas");
+		setSize(400,300);                                  
+		setLocationRelativeTo(null);
+	}
+
+	private void iniciarComponentes() {
+		miPanel=new JPanel();
+		miPanel.setLayout(null);
+		
+		minota1=new JLabel();
+		minota1.setText("Ingrese la nota 1: ");
+		minota1.setBounds(100, 70, 150, 30);
+		nota1 = new JTextField();
+		nota1.setBounds(100, 100, 150, 30);
+		
+		minota2=new JLabel();
+		minota2.setText("Ingrese la nota 1: ");
+		minota2.setBounds(100, 70, 150, 30);
+		nota1 = new JTextField();
+		nota1.setBounds(100, 100, 150, 30);
+		
+		minota1=new JLabel();
+		minota1.setText("Ingrese la nota 1: ");
+		minota1.setBounds(121, 33, 150, 30);
+		nota1_1 = new JFormattedTextField();
+		nota1_1.setBounds(121, 62, 150, 30);
+		
+		miPanel.add(minota1);
+		miPanel.add(nota1_1);
+		
+		getContentPane().add(miPanel);
+		
+		JLabel lblIngreseLaNota = new JLabel();
+		lblIngreseLaNota.setText("Ingrese la nota 2: ");
+		lblIngreseLaNota.setBounds(121, 90, 150, 30);
+		miPanel.add(lblIngreseLaNota);
+		
+		textField = new JFormattedTextField();
+		textField.setBounds(121, 116, 150, 30);
+		miPanel.add(textField);
+		
+		JLabel minota1_1_1 = new JLabel();
+		minota1_1_1.setText("Ingrese la nota 3: ");
+		minota1_1_1.setBounds(121, 146, 150, 30);
+		miPanel.add(minota1_1_1);
+		
+		textField_1 = new JFormattedTextField();
+		textField_1.setBounds(121, 172, 150, 30);
+		miPanel.add(textField_1);
+		
+		JLabel lblNewLabel = new JLabel("CALCULADORA DE NOTAS");
+		lblNewLabel.setBounds(121, 11, 150, 27);
+		miPanel.add(lblNewLabel);
+		
+		JButton btnNewButton = new JButton("Calcular");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "La nota definitiva es: "+"e");
+			}
+		});
+		btnNewButton.setBounds(148, 213, 89, 23);
+		miPanel.add(btnNewButton);
+		
+	}
+}

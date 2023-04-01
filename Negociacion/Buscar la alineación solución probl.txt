@@ -1,0 +1,61 @@
+Android Discord:
+https://aged-zenobia-26b.notion.site/Primer-App-Android-11ba1693cb134c9c955c0bc43d9005f6
+https://aged-zenobia-26b.notion.site/Actividades-y-su-ciclo-de-vida-f98b514ba35f4ec3b973fa32c4076738
+https://drive.google.com/drive/folders/1Cwu5UVy-hxXW6BVGrjGEPArjU729z2hb
+
+
+Buscar la alineación solución problema
+
+La alineación solución problema es un "enfoque de resolución de problemas" que se enfoca en asegurarse de que todas las partes involucradas en el problema estén alineadas en cuanto a 
+- La definición del problema
+- Los objetivos a alcanzar
+- La solución propuesta.
+
+La alineación solución problema solamente se alcanza cuando:
+El modelo de ingresos, la fijación de precios y los esfuerzos de adquisición de clientes, satisfagan las necesidades del cliente.
+
+
+
+Intentar comprender las necesidades
+Hacer lista de funcionalidade que el cliente desea, seria bobada pa uno
+Entregar lista de desarrollo del producto de funcionalidades que el cliente desea  (NO DESARROLLAR A LA MEDIDA sino en general)
+Ejecutar grupos de analisis para analizar el cliente cuando tiene su producto (Desarrollar el producto no para todos sino para pocos)
+
+
+
+
+Buscar la alineación solución problema
+
+En esencia, lo que el descubrimiento de clientes busca es determinar si la
+propuesta de valor de su startup concuerda con el segmento de clientes objetivo.
+
+La alineación solución problema solamente se alcanza cuando todos: el
+modelo de ingresos, la fijación de precios y los esfuerzos de adquisición de clientes, satisfagan las
+necesidades del cliente.
+
+Desarrolle el producto para los pocos, no para muchos
+La meta del mercadeo y la gestión de productos tradicionales es desarrollar
+un documento de requerimientos de mercado (MRD), que contenga todos los
+requerimientos posibles de funcionalidades de los clientes, organizados en orden de prioridad en
+un esfuerzo común de Gestión de Productos, Mercadeo, Ventas e Ingeniería.
+
+Mercadeo o Gestión de Productos
+Tienen grupos de análisis, analizan los datos de ventas recopilados en campo, y
+consideran los requerimientos de funcionalidades y las quejas de los clientes.
+Con esta información se analizan las funcionalidades requeridas a las especificaciones del producto, que
+luego el equipo de ingeniería incorpora en el siguiente lanzamiento del producto.
+
+
+Dispersan el producto para ayudar a crecer el emprendimiento, dando fe en su calidad o beneficios. Compran producto en su etapa inicial y no cuando ya estan completos.
+Regalar sus productos o hacer grandes descuentos
+Descubrir un problema, formula la solucion
+
+
+PMV producto minimo viable
+Comprender el problema para definir la solucion del producto
+Entregan un producto con todas las funcionalidades NO, entregar un MVP para retroalimentacion del cliente
+
+Negocios web o moviles son diferentes
+Los PMV web o moviles son mas rapidos
+Mirar si los clientes si van a utilizar el aplicativo, descubrir erlyevangelist, atraer mas clientes.
+Se utliza el Bussiness Model Canvas

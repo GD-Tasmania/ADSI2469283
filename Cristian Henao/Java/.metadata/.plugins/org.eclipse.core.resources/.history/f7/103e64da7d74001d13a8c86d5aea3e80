@@ -1,0 +1,76 @@
+import java.util.HashMap;
+
+import javax.swing.JOptionPane;
+
+public class Procesos {
+	static int cantGanan=0;
+	static int cantpierden=0;
+	static int cantRecupera=0;
+	static int cantPierden=0;
+	static int cantEstudiantesValidados=0;
+    static HashMap<String,Double> notasEstudent = new HashMap<String,Double>();
+
+	static void pedirNotas(double n1, double n2, double n3, String nombre) {
+				//Se hace el llamado 3 veces del metodo para validar la nota ingresada
+	            n1=validarNota(n1);
+	            n2=validarNota(n2);
+	            n3=validarNota(n3);
+	            
+	            double promedio = (n1+n2+n3)/3;
+	            
+	            if (promedio>=3.5) {
+	                JOptionPane.showMessageDialog(null, "El estudiante "+nombre+" aprobo con un promedio de "+promedio);
+	                cantGanan++;
+	            }else{
+	                JOptionPane.showMessageDialog(null, "El estudiante "+nombre+" reprobo con un promedio de "+promedio);
+	                cantpierden++;
+	            }
+	            if (promedio > 2.0 && promedio < 3.5) {
+	                cantRecupera++;
+	            }else if (promedio < 2.0) {
+	                cantPierden++;
+	            }
+	            notasEstudent.put(nombre,promedio);
+	            cantEstudiantesValidados++;
+	        imprimirDatos();
+	        System.out.println("-------------------------------------------------");
+	        promedioTotal();
+	        System.out.println("-------------------------------------------------");
+	        mostrarEstudiantes();
+	}
+private static double validarNota(double n) {
+		do {
+			if (n<0 || n>5) {
+				JOptionPane.showMessageDialog(null, "La nota "+n+"está fuera del rango permitido");
+			}
+			
+		} while (n<0 || n>5);
+		return n;
+	}
+public static void mostrarEstudiantes(){
+    System.out.println("Lista de estudiantes :");
+    for (String key : notasEstudent.keySet()) {
+        System.out.println("Nombre: "+key + " | "+ "Promedio: " + notasEstudent.get(key));
+    }
+}
+
+public static void promedioTotal(){
+    double promedioTotal = 0;
+    for (String key : notasEstudent.keySet()) {
+        promedioTotal += notasEstudent.get(key);
+    }
+    System.out.println("El promedio de las notas finales obtenidas es : "+promedioTotal/notasEstudent.size());
+}
+
+
+public static void imprimirDatos(){
+    System.out.println("Cantidad de estudiantes validados : "+cantEstudiantesValidados);
+    System.out.println("Cantidad de notas ingresadas es : "+cantEstudiantesValidados*3);
+    System.out.println("Cantidad de estudiantes que ganaron: "+cantGanan);
+    System.out.println("Cantidad de estudiantes que perdieron: "+cantpierden);
+    System.out.println("Cantidad de estudiantes que pueden recuperar: "+cantRecupera);
+    System.out.println("Cantidad de estudiantes que perdieron sin recuperación: "+cantPierden);
+    System.out.println("/////////////////////////////////");
+}
+	
+}

@@ -1,0 +1,64 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #074a2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h1{
+    font-size: 2.2vw;
+    color: rgb(39, 39, 39);
+    font-style: oblique;
+}
+.container1{
+    width: 32vw;
+    height: 30vw;
+    padding-top: 1.2vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background: radial-gradient(rgb(247, 247, 247),#043d49);
+    border: double 5px rgb(93, 93, 93);
+}
+
+input{
+    width: 10vw;
+    height: 2.5vw;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 1vw;
+    text-align: center;
+    font-style: oblique;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+#button{
+    width: 8vw;
+    height: 2.5vw;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-size: 1vw;
+}
+
+p{
+    font-size: 1.2vw;
+}

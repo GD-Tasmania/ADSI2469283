@@ -1,0 +1,46 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://img.freepik.com/foto-gratis/pared-ladrillo-negro-textura-fondo_53876-63572.jpg?w=2000);
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.container{
+    width: 60%;
+    height: 40vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.opciones{
+    width: 80%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.login-email{
+    width: 160px;
+    height: 40px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}

@@ -1,0 +1,12 @@
+
+public class Principal {
+
+	public static void main(boolean b) {
+		Ventana1 miVentana = new Ventana1();
+		miVentana.setVisible(true);
+		if(b==true) {
+			Ventana2 miventana2 = new Ventana2();
+		}
+	}
+
+}
